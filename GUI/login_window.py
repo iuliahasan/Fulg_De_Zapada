@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
 from GUI.chatbot_window import ChatbotWindow
+from GUI.register_window import RegisterWindow
 
 class LoginWindow:
     def __init__(self):
@@ -20,6 +21,9 @@ class LoginWindow:
         self.login_button = tk.Button(self.window, text='Login', command=self.login)
         self.login_button.pack(pady=20)
 
+        self.register_button = tk.Button(self.window, text='Register', command=self.register)
+        self.register_button.pack(pady=20)
+
     def login(self):
         username = self.username_entry.get().strip()
         password = self.password_entry.get().strip()
@@ -35,6 +39,9 @@ class LoginWindow:
             import chatbot_window
         else:
             messagebox.showerror('Eroare', 'Utilizator sau parola incorecta!')
+
+    def register(self):
+        RegisterWindow()
 
     def run(self):
         self.window.mainloop()

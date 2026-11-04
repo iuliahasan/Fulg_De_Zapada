@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7396d79-e761-4650-aa0f-1a07c5a3f5c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GUI/register_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GUI/chatbot_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/chatbot_window.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GUI/login_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/login_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/conversation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/conversation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/Models/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repository/conversation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/conversation_repository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Services/chatbot_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/chatbot_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -15,9 +15,9 @@ class ChatbotWindow:
 
         self.entry = tk.Entry(self.window)
         self.entry.pack(padx=10, pady=10, fill='both', expand=True)
-        self.entry.bind('<Return>', lambda e: send_question())
+        self.entry.bind('<Return>', lambda e: self.send_question())
 
-        self.send_button = tk.Button(self.window, text='Trimite', command=send_question)
+        self.send_button = tk.Button(self.window, text='Trimite', command=self.send_question)
         self.send_button.pack(pady=10)
 
     def send_question(self, event=None):

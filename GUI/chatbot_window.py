@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter.scrolledtext import ScrolledText
-from Services.chatbot import get_answer
+from Services.genetic_algorithm_service import get_answer
 
 class ChatbotWindow:
     def __init__(self):

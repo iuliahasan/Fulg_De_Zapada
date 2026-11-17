@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f7396d79-e761-4650-aa0f-1a07c5a3f5c7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Repository/user_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/Repository/user_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/chatbot_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/chatbot_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/authentication.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/authentication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/genetic_algorithm_service.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/chatbot_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/Services/chatbot_service.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -39,6 +45,7 @@
     &quot;Python.gui.executor&quot;: &quot;Run&quot;,
     &quot;Python.login_window.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.user_repository.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,

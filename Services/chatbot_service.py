@@ -1,11 +1,16 @@
-from Repository.conversation_repository import save_conversation
+from Repository.conversation_repository import save_conversation, get_conversations_by_user
+from Services.genetic_algorithm_service import generate_optimal_study
 
-def process_question(user_id, question):
- answer = generate_answer(question)
- save_conversation(user_id, question, answer)
+def generate_answer(question, current_level='beginner'):
+    question = question.strip().lower()
 
- return answer
+    return generate_optimal_study(question, current_level)
 
-def generate_answer(question):
-    question = question.lower().strip()
+def process_question(username, question, current_level='beginner'):
+    answer = generate_answer(question, current_level)
+    save_conversation(username, question, answer)
 
+    return answer
+
+def get_user_history(username):
+    return get_conversations_by_user(username).history()
